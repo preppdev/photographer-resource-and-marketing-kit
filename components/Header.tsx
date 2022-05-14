@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ children }) => {
               Prepp Photographer Resources and Marketing Kit
             </a>
           </Link>
-          {children}
+          <div>{children}</div>
         </div>
       </div>
     </main>

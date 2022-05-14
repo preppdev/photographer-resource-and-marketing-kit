@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import MarketingLinksGrid from "../components/MarketingLinksGrid";
 
 const Home = () => {
   return (
@@ -11,9 +12,9 @@ const Home = () => {
       </Head>
 
       <main>
-        <div>
-          <Header />
-        </div>
+        <Header>
+          <MarketingLinksGrid title={""} url={""} id={0} />
+        </Header>
       </main>
 
       <footer>
